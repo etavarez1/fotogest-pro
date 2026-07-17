@@ -68,12 +68,11 @@ La base remota usa las colecciones `usuarios`, `clientes`, `paquetes`,
 ## Credenciales de prueba
 
 ```text
-Correo: edwin.tavarez@example.com
-Contrasena: 123456
+Correo: test@uapa.com
+Contrasena: Uapa2026
 ```
 
-Estas credenciales deben existir en Firebase Authentication para probar el modo
-Online. Si no hay internet, la app permite entrar con esas mismas credenciales
+Si no hay internet, la app permite entrar con esas mismas credenciales
 solo si ya fueron usadas exitosamente antes en el dispositivo.
 
 ## Validacion local
@@ -117,8 +116,4 @@ La base oficial seleccionada para el proyecto es Firebase Firestore. Los archivo
 - `database/firestore_seed_fotogest_pro.js`
 - `database/firestore.rules`
 
-La base real esta creada en Firebase:
-
-```text
-https://console.firebase.google.com/project/app-fotografia-881ef/firestore/databases/-default-/data
-```
+La base de datos esta creada en Firebase:
